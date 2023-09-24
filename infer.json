@@ -1,0 +1,9 @@
+{
+    "chair_head.obj": 1,
+    "chair_back.obj": 2,
+    "chair_arm_left.obj": 3,
+    "chair_arm_right.obj": 4,
+    "chair_seat.obj": 5,
+    "chair_base.obj": 6,
+    "footrest.obj": 7
+}

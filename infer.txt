@@ -1,0 +1,120 @@
+116 :
+Y Y Y N Y Y N 
+24 :
+N N N N Y Y N 
+26 :
+N Y Y Y Y Y N 
+36 :
+N Y N N Y Y N 
+45 :
+N Y Y Y Y Y N 
+130 :
+Y Y Y Y Y Y N 
+60 :
+N Y Y Y Y Y N 
+141 :
+N Y N N Y Y N 
+64 :
+N Y N N Y Y N 
+149 :
+N Y Y Y Y Y Y 
+157 :
+N N Y Y Y Y N 
+171 :
+N Y Y Y Y Y N 
+109 :
+N Y Y Y Y Y N 
+110 :
+N N N N Y Y N 
+43 :
+N N N N Y Y Y 
+117 :
+N Y Y Y Y Y N 
+15 :
+N N N N Y Y N 
+176 :
+Y Y Y Y Y Y Y 
+118 :
+N N Y Y Y Y N 
+25 :
+N Y Y Y Y Y N 
+29 :
+N Y N N Y Y N 
+30 :
+N Y N N Y N N 
+33 :
+N Y N N Y Y N 
+46 :
+Y Y Y Y Y Y N 
+59 :
+N Y Y Y Y Y N 
+143 :
+N Y Y Y Y Y N 
+81 :
+N N N N Y Y N 
+68 :
+N N N N Y Y N 
+147 :
+Y Y Y Y Y Y Y 
+75 :
+Y Y Y Y Y Y N 
+151 :
+N Y N N Y Y N 
+152 :
+N Y Y Y Y Y Y 
+154 :
+N Y Y Y Y N Y 
+83 :
+N Y Y Y Y Y N 
+92 :
+Y Y Y Y Y Y N 
+96 :
+N Y N N Y Y N 
+98 :
+N N Y Y Y Y N 
+168 :
+Y Y Y Y Y Y N 
+103 :
+Y Y Y Y Y Y N 
+181 :
+Y Y Y Y Y Y N 
+156 :
+Y Y Y Y Y Y Y 
+172 :
+N Y Y Y Y Y N 
+166 :
+Y Y Y Y Y Y Y 
+111 :
+N Y Y Y Y Y N 
+104 :
+N N N N Y Y N 
+49 :
+N N N N Y Y N 
+158 :
+Y Y Y Y Y Y N 
+162 :
+N Y Y Y Y Y N 
+48 :
+N Y N N Y Y N 
+123 :
+N Y Y Y Y Y N 
+142 :
+N Y N N Y Y N 
+131 :
+Y Y Y Y Y Y Y 
+44 :
+Y Y Y Y Y Y N 
+180 :
+Y Y Y Y Y Y Y 
+17 :
+N Y N N Y Y N 
+173 :
+N N N N Y Y N 
+87 :
+N Y Y Y Y Y N 
+121 :
+N Y Y Y Y Y N 
+85 :
+N Y Y Y Y N N 
+99 :
+N N Y Y Y Y N 
