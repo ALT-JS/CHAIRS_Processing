@@ -2,7 +2,7 @@
 
 Credits to: Koyui
 
-This repository can help you to generate a ground-truth of the objects in CHAIRS dataset.
+This repository can help you to generate a ground-truth of the objects in the CHAIRS dataset. It also provides our clear and verified inference to the unknown information in the dataset.
 
 **infer.py** : About how we infer the labels corresponding to parts of the chairs.
 
