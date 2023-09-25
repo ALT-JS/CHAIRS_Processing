@@ -6,12 +6,13 @@ dataset_loc = np.load("W:\ho_datasets\CHAIRS\AHOI_Data\DATA_FOLDER\object_locati
 dataset_rot = np.load("W:\ho_datasets\CHAIRS\AHOI_Data\DATA_FOLDER\object_rotation.npy")
 # directory: /nas/shared_folders
 print("Loading Complete.")
-directory = r"W:\ho_datasets\CHAIRS\AHOI_Data\AHOI_ROOT\Meshes_wt\30"
-output = r'W:\ho_datasets\CHAIRS\object_GT\30'
+
+num = 64
+
+directory = rf"W:\ho_datasets\CHAIRS\AHOI_Data\AHOI_ROOT\Meshes_wt\{num}"
+output = rf'W:\ho_datasets\CHAIRS\object_GT\{num}'
 def euler2matrix(rot):
-    alpha = rot[0]
-    beta = rot[1]
-    gamma = rot[2]
+    alpha = rot[0]; beta = rot[1]; gamma = rot[2]
     Rx = np.array([[1, 0, 0], [0, np.cos(alpha), -np.sin(alpha)], [0, np.sin(alpha), np.cos(alpha)]])
     Ry = np.array([[np.cos(beta), 0, np.sin(beta)], [0, 1, 0], [-np.sin(beta), 0, np.cos(beta)]])
     Rz = np.array([[np.cos(gamma), -np.sin(gamma), 0], [np.sin(gamma), np.cos(gamma), 0], [0, 0, 1]])
@@ -46,7 +47,7 @@ with open("object2frame.json", 'r') as jsonF:
     id_dict = json.load(jsonF)
 with open("infer.json", 'r') as jsonF:
     infer_dict = json.load(jsonF)
-frame_info = id_dict[str(30)]
+frame_info = id_dict[str(num)]
 for idx, start_frame in enumerate(frame_info['start']):
     start_frame = start_frame-1
     end_frame = frame_info['ends'][idx]-1
