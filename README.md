@@ -6,15 +6,15 @@ This repository can help you to generate a ground-truth of the objects in the CH
 
 **correlations.csv**: The first column is the object_id, and the corresponding row of every object_id is the folders that contain this object in IMG_FOLDER. Sorry for the jankiness of it.
 
-**infer.py**: About how we infer the labels corresponding to parts of the chairs.
+**infer.py**: This program is about how we infer the labels that correspondin to parts of the CHAIRS.
 
-**frame_statics.py**: To generate frame info for each object.
+**frame_statics.py**: This program can generate frame info for each object.
 
-**transform.py**: To transform parts of the chairs with its corresponding translation and rotation.
+**transform.py**: This program can transform parts of the CHAIRS object with its corresponding translation and rotation given in the npy files.
 
-**test.py**: To combine parts of the chair into an intact one.
+**test.py**: This program can combine parts of the CHAIRS object into an intact one.
 
-**normalize.py**: We use it to shift the regenerated object back to the original point, the correct way to reiterate CHAIRS should be using root_location/rotation npy file to relocate objects.
+**normalize.py**: We use it to shift the regenerated object back to the original point for tests, **the correct way to reiterate CHAIRS should be using root_location/rotation npy file to relocate combined objects**.
 
 All the things in the CHAIRS dataset is tangled and packed into several massive npy files, to make the matters worse, it didn't provide much useful information in both its paper and project pages.
 
