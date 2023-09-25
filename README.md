@@ -14,6 +14,8 @@ This repository can help you to generate a ground-truth of the objects in the CH
 
 **test.py**: To combine parts of the chair into an intact one.
 
+**normalize.py**: We use it to shift the regenerated object back to the original point, the correct way to reiterate CHAIRS should be using root_location/rotation npy file to relocate objects.
+
 All the things in the CHAIRS dataset is tangled and packed into several massive npy files, to make the matters worse, it didn't provide much useful information in both its paper and project pages.
 
 It took me and Koyui a considerable amount of time to sort and understand the whole dataset.
