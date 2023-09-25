@@ -4,7 +4,9 @@ Credits to: [Koyui](https://github.com/Koyui)
 
 This repository can help you to generate a ground-truth of the objects in the CHAIRS dataset. It also provides our clear and verified inference to the unknown information in the dataset.
 
-**infer.py** : About how we infer the labels corresponding to parts of the chairs.
+**correlations.csv**: The first column is the object_id, and the corresponding row of every object_id is the folders that contain this object in IMG_FOLDER. Sorry for the jankiness of it.
+
+**infer.py**: About how we infer the labels corresponding to parts of the chairs.
 
 **frame_statics.py**: To generate frame info for each object.
 
