@@ -2,8 +2,7 @@
 ### If not, author: ALT
 import os
 
-# directory: /nas/shared_folders
-work_dir = r'W:\ho_datasets\CHAIRS\object_GT\30'
+work_dir = r'W:\ho_datasets\CHAIRS\object_GT\64'
 directories = [f for f in os.listdir(work_dir)]
 for idx, directory in enumerate(directories):
     directory = os.path.join(work_dir, directory)
@@ -32,12 +31,12 @@ for idx, directory in enumerate(directories):
                     faces.append(adjusted_face)
                     
         # Update the vertex offset for the next file
-        vertex_offset += len([v for v in vertices if v.startswith('v ')])
+        vertex_offset = len([v for v in vertices if v.startswith('v ')])
 
     # Write the combined data to the output file
     with open(output_file_name, 'w') as file:
         file.writelines(vertices)
         file.writelines(faces)
     if idx % 250 == 0:
-        print(f"from {directory} has Combined {len(obj_files)*1000} .obj files into {output_file_name}")
+        print(f"from {directory} has Combined {len(obj_files)*250} .obj files into {output_file_name}")
         print(f'{idx}/{len(directories)}')
